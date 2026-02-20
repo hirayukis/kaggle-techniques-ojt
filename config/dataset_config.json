@@ -3,11 +3,11 @@
   "dataset_id": "adult_openml_v2",
   "test_size": 0.6,
   "random_seed": 42,
-  "enable_distribution_noise": true,
+  "enable_distribution_noise": false,
   "noise_mode": "segment_shift_and_label_flip",
-  "noise_feature_count": 1,
+  "noise_feature_count": 2,
   "noise_strength": 0.5,
-  "noise_random_seed": 49,
-  "noise_segment_fraction": 0.15,
-  "noise_label_flip_rate": 0.3
+  "noise_random_seed": 20,
+  "noise_segment_fraction": 0.4,
+  "noise_label_flip_rate": 0.6
 }
